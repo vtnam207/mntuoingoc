@@ -1,0 +1,4 @@
+# Thay Contact bằng email thật của trường trước khi chạy chính thức
+Contact: mailto:security@mntuoingoc.vn
+Expires: 2027-11-08T00:00:00.000Z
+Preferred-Languages: vi, en

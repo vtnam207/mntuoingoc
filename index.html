@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mầm non Tuổi Ngọc · Lộ trình Học &amp; Chơi</title>
+<meta name="description" content="Lộ trình Học &amp; Chơi cho bé tiền tiểu học và tiểu học tại Mầm non Tuổi Ngọc.">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#5A3BC6">
+<meta property="og:title" content="Mầm non Tuổi Ngọc · Lộ trình Học &amp; Chơi">
+<meta property="og:description" content="Lộ trình học theo độ tuổi và theo môn cho bé từ 3 tuổi đến lớp 5.">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&amp;family=Be+Vietnam+Pro:wght@400;500;600;700&amp;family=Mali:wght@500;600&amp;display=swap">
+<link rel="stylesheet" href="/assets/styles.css">
+<script src="/assets/app.js" defer></script>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="#do-tuoi" aria-label="Mầm non Tuổi Ngọc, về Lộ trình Học và Chơi">
+      <span class="mark" aria-hidden="true">TN</span>
+      <span><b>Tuổi Ngọc</b><small>Mầm non · Tiền tiểu học · Tiểu học</small></span>
+    </a>
+    <a class="top-cta" href="#lien-he">Nhận tư vấn</a>
+  </header>
+
+  <section class="sheet">
+    <div class="stamp" aria-hidden="true"><div><b>10</b><span>cho sự cố gắng</span></div></div>
+    <div class="hero">
+      <div>
+        <span class="note hand">Mầm non Tuổi Ngọc · Chơi mà học</span>
+        <h1>Lộ trình <span class="ink">Học &amp; Chơi<svg viewBox="0 0 200 20" preserveAspectRatio="none" aria-hidden="true"><path d="M2 14 C 40 4, 80 18, 120 9 S 185 6, 198 12"/></svg></span> cho con</h1>
+        <p class="lead">Chọn <strong>độ tuổi</strong> của con, hoặc chọn môn con đang cần: <strong>Toán</strong>, <strong>Tiếng Việt</strong>, <strong>Tiếng Anh</strong>, <strong>Tư duy</strong>, <strong>Nề nếp</strong>. Mỗi mục cho ba mẹ biết con đang ở giai đoạn nào, chơi gì cùng con ở nhà và lớp nào ở Tuổi Ngọc phù hợp.</p>
+      </div>
+      <div class="levels">
+        <span class="cap">Con đang học lớp nào?</span>
+        <div class="lv-row" id="lvRow"></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="tabs-shell" id="tabsShell">
+  <nav class="tabs" role="tablist" aria-label="Chọn chủ đề">
+    <button class="tab" role="tab" id="t-do-tuoi" aria-controls="do-tuoi" data-tab="do-tuoi">Theo độ tuổi</button>
+    <button class="tab" role="tab" id="t-toan" aria-controls="toan" data-tab="toan">Toán học</button>
+    <button class="tab" role="tab" id="t-tieng-viet" aria-controls="tieng-viet" data-tab="tieng-viet">Tiếng Việt</button>
+    <button class="tab" role="tab" id="t-tieng-anh" aria-controls="tieng-anh" data-tab="tieng-anh">Tiếng Anh &amp; Phonics</button>
+    <button class="tab" role="tab" id="t-tu-duy" aria-controls="tu-duy" data-tab="tu-duy">Phát triển Tư duy</button>
+    <button class="tab" role="tab" id="t-hanh-vi" aria-controls="hanh-vi" data-tab="hanh-vi">Nề nếp &amp; Hành vi</button>
+    <button class="tab" role="tab" id="t-tai-nguyen" aria-controls="tai-nguyen" data-tab="tai-nguyen">Tài nguyên miễn phí</button>
+  </nav>
+</div>
+
+<main class="wrap">
+
+<!-- ============ THEO ĐỘ TUỔI ============ -->
+<section class="panel" id="do-tuoi" role="tabpanel" aria-labelledby="t-do-tuoi">
+  <div class="age-layout">
+    <div class="ages" role="group" aria-label="Chọn độ tuổi" id="ageBar"><span class="cap">Mục lục theo tuổi</span></div>
+    <div id="ageView" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- ============ TOÁN ============ -->
+<section class="panel" id="toan" role="tabpanel" aria-labelledby="t-toan" hidden>
+  <div class="panel-head">
+    <span class="label">Toán học</span>
+    <h2>5 bậc xây nền Toán cho con</h2>
+    <p>Từ nhận mặt số ở lớp Mầm đến giải toán có lời văn ở tiểu học. Mỗi bậc dựa trên bậc trước, nên đi đủ từng bậc quan trọng hơn đi nhanh.</p>
+  </div>
+  <div class="card">
+    <ol class="steps">
+      <li class="step"><div class="num">1</div><div class="c">
+        <span class="when">3–4 tuổi · Lớp Mầm</span>
+        <h4>Nhận mặt số</h4>
+        <p>Con nhìn chữ số và gọi đúng tên, giống như nhận ra gương mặt người quen. Ở bậc này con chưa cần biết số 5 là "bao nhiêu".</p>
+        <div class="mini"><span>Thẻ số khổ lớn</span><span>Tìm số trên biển xe, lịch</span><span>Nặn đất theo hình số</span></div>
+      </div></li>
+      <li class="step"><div class="num">2</div><div class="c">
+        <span class="when">4–5 tuổi · Lớp Chồi</span>
+        <h4>Đếm và thứ tự</h4>
+        <p>Đếm xuôi, đếm ngược, biết số đứng trước và đứng sau. Con có thể đếm trơn tru đến 20 mà vẫn chưa hiểu lượng, điều này hoàn toàn bình thường.</p>
+        <div class="mini"><span>Đếm bậc cầu thang</span><span>Xếp thẻ số theo dãy</span><span>Trò "số nào biến mất"</span></div>
+      </div></li>
+      <li class="step key"><div class="num">3</div><div class="c">
+        <span class="flag">Bậc quan trọng nhất, hay bị bỏ qua!</span>
+        <span class="when">4–6 tuổi · Chồi và Lá</span>
+        <h4>Số lượng và so sánh</h4>
+        <p>Con hiểu rằng số cuối cùng khi đếm chính là số lượng của cả nhóm, và biết nhóm nào nhiều hơn, ít hơn hay bằng nhau. Nhiều bé đọc số rất giỏi nhưng gặp khó ở phép tính vì bỏ qua bậc này.</p>
+        <div class="mini"><span>Đếm hạt, nắp chai thật</span><span>Nối nhóm đồ vật với số</span><span>So sánh hai đĩa kẹo</span></div>
+      </div></li>
+      <li class="step"><div class="num">4</div><div class="c">
+        <span class="when">5–7 tuổi · Lớp Lá và Lớp 1</span>
+        <h4>Tách, gộp và cộng trừ</h4>
+        <p>Gộp hai nhóm lại, bớt đi một phần, làm bằng tay với đồ vật trước, rồi mới viết thành dấu + và −. Mục tiêu là con hiểu phép tính, chưa cần tính nhanh.</p>
+        <div class="mini"><span>Ngôi nhà số: tách 7 thành 3 và 4</span><span>Trò đi chợ bằng xu giấy</span><span>Cộng trừ phạm vi 10, 20, 100</span></div>
+      </div></li>
+      <li class="step"><div class="num">5</div><div class="c">
+        <span class="when">Lớp 2–5</span>
+        <h4>Giải toán và mở rộng</h4>
+        <p>Toán có lời văn, bảng nhân chia, đo thời gian, độ dài, tiền, rồi đến phân số, số thập phân và hình học. Con tập giải thích vì sao mình làm như vậy.</p>
+        <div class="mini"><span>Tóm tắt đề bằng sơ đồ</span><span>Bảng nhân qua trò chơi</span><span>Đo đạc trong nhà bếp</span></div>
+      </div></li>
+    </ol>
+  </div>
+  <div class="card">
+    <h3>Toán tư duy là gì?</h3>
+    <p class="muted">Toán tư duy không đo con tính nhanh hay chậm. Nó là cách con suy nghĩ, giải thích và tìm ra lời giải. Ở Tuổi Ngọc, cô giáo quan sát sáu mặt sau:</p>
+    <div class="facets">
+      <div><b>Lập luận</b><span>Nói được vì sao chọn đáp án này mà không chọn đáp án kia.</span></div>
+      <div><b>Giải quyết vấn đề</b><span>Thử nhiều cách khác nhau cho cùng một bài.</span></div>
+      <div><b>Sáng tạo</b><span>Tự đặt câu hỏi mới, tự ra đề cho bạn.</span></div>
+      <div><b>Tập trung và ghi nhớ</b><span>Theo dõi được một quy luật dài, nhớ trình tự các bước.</span></div>
+      <div><b>Hình dung không gian</b><span>Ghép hình, xoay khối, đoán vị trí khi nhìn từ phía khác.</span></div>
+      <div><b>Ngôn ngữ toán</b><span>Dùng đúng từ: nhiều hơn, gấp đôi, liền trước, bằng nhau.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TIẾNG VIỆT ============ -->
+<section class="panel" id="tieng-viet" role="tabpanel" aria-labelledby="t-tieng-viet" hidden>
+  <div class="panel-head">
+    <span class="label">Tiếng Việt</span>
+    <h2>Từ chữ cái đầu tiên đến đọc hiểu</h2>
+    <p>Tiếng Việt ghi âm khá đều, nên khi con nắm chắc âm, vần và dấu thanh, việc đọc sẽ tiến rất nhanh. Phần khó nằm ở tập viết và đọc hiểu.</p>
+  </div>
+  <div class="card">
+    <ol class="steps">
+      <li class="step"><div class="num">1</div><div class="c">
+        <span class="when">4–5 tuổi</span><h4>Làm quen chữ cái</h4>
+        <p>Nhận mặt 29 chữ cái qua tranh, bài hát và đồ vật quen. Con gắn mỗi chữ với một âm và một từ con biết: b với "bóng", m với "mẹ".</p>
+        <div class="mini"><span>Thẻ chữ – tranh</span><span>Bingo chữ cái</span><span>Nặn và tô chữ</span></div>
+      </div></li>
+      <li class="step"><div class="num">2</div><div class="c">
+        <span class="when">5–6 tuổi</span><h4>Âm, vần và dấu thanh</h4>
+        <p>Con tách được một tiếng thành âm đầu, vần và thanh: "mèo" gồm m, eo và dấu huyền. Học vần theo từng cặp dễ nhầm như an/ang, ăn/âng.</p>
+        <div class="mini"><span>Vỗ tay theo tiếng</span><span>Đổi dấu đổi nghĩa: ma, má, mà</span><span>Săn vần trong truyện</span></div>
+      </div></li>
+      <li class="step key"><div class="num">3</div><div class="c">
+        <span class="flag">Mốc vào lớp 1</span>
+        <span class="when">Lớp 1</span><h4>Ghép tiếng, đọc trơn</h4>
+        <p>Từ đánh vần chuyển sang đọc liền cả tiếng, rồi cả câu ngắn. Mỗi ngày đọc to 10 phút với ba mẹ có hiệu quả hơn một buổi dài cuối tuần.</p>
+        <div class="mini"><span>Thẻ vần hai mặt</span><span>Truyện ngắn theo vần đã học</span><span>Đọc nối tiếp cùng ba mẹ</span></div>
+      </div></li>
+      <li class="step"><div class="num">4</div><div class="c">
+        <span class="when">5–7 tuổi</span><h4>Tập viết</h4>
+        <p>Ngồi đúng tư thế, cầm bút ba ngón, tô nét cơ bản rồi viết chữ cỡ nhỡ theo ô li. Không ép viết nhiều khi tay con chưa đủ khỏe.</p>
+        <div class="mini"><span>Xé dán, xâu hạt luyện tay</span><span>Tô nét trên bảng con</span><span>Viết chữ thường cỡ nhỡ</span></div>
+      </div></li>
+      <li class="step"><div class="num">5</div><div class="c">
+        <span class="when">Lớp 2–5</span><h4>Đọc hiểu và viết đoạn</h4>
+        <p>Trả lời câu hỏi về bài đọc, tìm ý chính, kể lại theo cách của mình. Sau đó viết đoạn 4–5 câu và dần đến bài văn có mở bài, thân bài, kết bài.</p>
+        <div class="mini"><span>Nhật ký đọc sách</span><span>Sơ đồ ý trước khi viết</span><span>Viết thư cho ông bà</span></div>
+      </div></li>
+    </ol>
+  </div>
+  <div class="pen"><span class="hand">Cô giáo dặn</span>Cho con làm quen chữ qua trò chơi trước tuổi vào lớp 1 là tốt. Điều nên tránh là biến việc làm quen thành bài tập viết nặng nề khiến con sợ chữ trước khi vào lớp.</div>
+</section>
+
+<!-- ============ TIẾNG ANH ============ -->
+<section class="panel" id="tieng-anh" role="tabpanel" aria-labelledby="t-tieng-anh" hidden>
+  <div class="panel-head">
+    <span class="label">Tiếng Anh &amp; Phonics</span>
+    <h2>Nghe – nói trước, đọc – viết sau</h2>
+    <p>Phonics dạy con quy đổi giữa chữ viết và âm thanh để tự đọc được từ mới. Nó hiệu quả nhất khi con đã có sẵn một vốn từ nghe và nói.</p>
+  </div>
+  <div class="card">
+    <h3>Ba mẹ nên biết</h3>
+    <div class="acc">
+      <details open><summary>Phonics là cách đọc, không phải một khóa tiếng Anh</summary><div class="in">
+        <p>Trẻ em các nước nói tiếng Anh học Phonics ở những năm đầu tiểu học để tập đọc, tương tự cách trẻ Việt học đánh vần ở lớp 1. Phonics không dạy con nói hay nghe hiểu. Nó nối phần con đã nói được với phần chữ viết.</p>
+        <p>Vì vậy, nếu con chưa từng nghe từ "hut", con có thể ghép đúng h – u – t mà vẫn không biết mình vừa đọc gì.</p>
+      </div></details>
+      <details><summary>Vì sao Stage 0 (nghe và nói) không được bỏ qua</summary><div class="in">
+        <p>Khi đọc tiếng Việt, con tự nhận ra mình đọc sai vì từ đó nghe "lạ tai". Với tiếng Anh, con chưa có cảm giác lạ tai đó nếu vốn nghe còn ít.</p>
+        <p>Tuổi Ngọc cho con nghe bài hát, truyện, hội thoại ngắn trước, và mọi từ trong bài đều đi kèm hình, nghĩa và âm thanh để con nghe lại ngay sau khi tự ghép.</p>
+      </div></details>
+      <details><summary>Phonics khác phát âm</summary><div class="in">
+        <p>Phonics trả lời câu hỏi "chữ này đọc là âm gì". Phát âm trả lời câu hỏi "âm này phát ra thế nào cho chuẩn": khẩu hình, đặt lưỡi, trọng âm, ngữ điệu. Một bé có thể đọc được nhiều từ nhưng phát âm chưa chuẩn, và ngược lại. Lớp học ở Tuổi Ngọc luyện cả hai, bằng hai hoạt động riêng.</p>
+      </div></details>
+      <details><summary>Con có cần học bảng phiên âm IPA không?</summary><div class="in">
+        <p>Ở tuổi mầm non và đầu tiểu học thì chưa cần. IPA là công cụ tra cứu cho người lớn. Với con, nghe mẫu, nhìn khẩu hình và nói theo là đủ.</p>
+      </div></details>
+      <details><summary>Cần bao lâu để con đọc được tiếng Anh?</summary><div class="in">
+        <p>Tính bằng năm, không phải tháng. Con cần gặp lại mỗi quy tắc nhiều lần, trong nhiều cuốn sách và trò chơi, đến khi thành phản xạ. Lộ trình dưới đây thường kéo dài từ lớp Lá đến lớp 3.</p>
+      </div></details>
+    </div>
+  </div>
+  <div class="card">
+    <h3>Lộ trình 8 Stage</h3>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>Stage</th><th>Con học gì</th><th>Ví dụ</th><th>Độ tuổi gợi ý</th></tr></thead>
+      <tbody>
+        <tr><td>0</td><td>Nghe – nói: bài hát, truyện, gọi tên đồ vật</td><td><code>apple</code> <code>dog</code> <code>run</code></td><td>Mọi lứa tuổi, xuyên suốt</td></tr>
+        <tr><td>1</td><td>Âm của từng chữ cái</td><td><code>s</code> /s/, <code>a</code> /æ/, <code>t</code> /t/</td><td>Lớp Lá</td></tr>
+        <tr><td>2</td><td>Ghép từ ba âm (CVC)</td><td><code>cat</code> <code>pen</code> <code>sun</code></td><td>Lá – Lớp 1</td></tr>
+        <tr><td>3</td><td>Âm ghép và cụm phụ âm</td><td><code>ship</code> <code>chin</code> <code>frog</code></td><td>Lớp 1</td></tr>
+        <tr><td>4</td><td>Nguyên âm dài, Magic E</td><td><code>cake</code> <code>rain</code> <code>tree</code></td><td>Lớp 1 – 2</td></tr>
+        <tr><td>5</td><td>Nguyên âm đôi, âm có r, chữ câm</td><td><code>coin</code> <code>car</code> <code>knee</code></td><td>Lớp 2</td></tr>
+        <tr><td>6</td><td>Từ bất quy tắc thường gặp</td><td><code>said</code> <code>was</code> <code>one</code></td><td>Lớp 2 – 3</td></tr>
+        <tr><td>7</td><td>Đọc lưu loát truyện theo cấp độ</td><td>Truyện ngắn 50–200 từ</td><td>Lớp 3</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+  <div class="card">
+    <h3>Một vài thuật ngữ</h3>
+    <div class="gloss">
+      <div><b>Phoneme (âm vị)</b><span class="muted">Đơn vị âm nhỏ nhất. Đổi một âm là đổi cả từ.</span><i>cat → bat</i></div>
+      <div><b>Blending / Segmenting</b><span class="muted">Ghép các âm thành từ để đọc; tách từ thành âm để viết.</span><i>/s/ /ʌ/ /n/ ↔ sun</i></div>
+      <div><b>CVC</b><span class="muted">Từ có dạng phụ âm – nguyên âm – phụ âm, loại từ đầu tiên con tự đọc.</span><i>hat, bed, pig</i></div>
+      <div><b>Digraph</b><span class="muted">Hai chữ cái cùng tạo ra một âm mới.</span><i>sh, ch, th</i></div>
+      <div><b>Magic E</b><span class="muted">Chữ e câm cuối từ làm nguyên âm phía trước đọc dài.</span><i>kit → kite</i></div>
+      <div><b>Sight word</b><span class="muted">Từ xuất hiện rất thường xuyên, con nên nhận ra ngay.</span><i>the, is, you</i></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TƯ DUY ============ -->
+<section class="panel" id="tu-duy" role="tabpanel" aria-labelledby="t-tu-duy" hidden>
+  <div class="panel-head">
+    <span class="label">Phát triển Tư duy</span>
+    <h2>Không phải con biết gì, mà con nghĩ thế nào</h2>
+    <p>Quan sát, so sánh, phân loại, tìm quy luật và lập luận là nền cho mọi môn học. Một câu hỏi đơn giản mỗi ngày giúp ích rất nhiều: <em>"Vì sao con nghĩ vậy?"</em></p>
+  </div>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Thang Bloom: 6 bậc từ nhớ đến sáng tạo</h3>
+      <p class="muted">Ba bậc dưới là tiếp nhận thông tin, ba bậc trên là xử lý và tạo ra cái mới.</p>
+      <div class="bloom">
+        <div class="low"><span class="lv-n">1</span><b>Ghi nhớ</b><span>Gọi tên, nhắc lại, nhận ra</span></div>
+        <div class="low w2"><span class="lv-n">2</span><b>Hiểu</b><span>Mô tả, giải thích bằng lời của mình</span></div>
+        <div class="low w3"><span class="lv-n">3</span><b>Vận dụng</b><span>Dùng điều đã học vào việc mới</span></div>
+        <div class="high w4"><span class="lv-n">4</span><b>Phân tích</b><span>Tìm quy luật, nguyên nhân – kết quả</span></div>
+        <div class="high w5"><span class="lv-n">5</span><b>Đánh giá</b><span>Chọn lựa, nhận xét, bảo vệ ý kiến</span></div>
+        <div class="high w6"><span class="lv-n">6</span><b>Sáng tạo</b><span>Tự nghĩ ra trò chơi, câu chuyện, cách làm mới</span></div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Tư duy phát triển theo tuổi</h3>
+      <p class="muted">Mốc theo Piaget, chỉ để tham khảo. Mỗi bé có nhịp riêng.</p>
+      <div class="timeline">
+        <div><b>0–2</b><span>Hiểu thế giới bằng giác quan và vận động.</span></div>
+        <div><b>2–7</b><span>Nghĩ bằng hình ảnh, tưởng tượng; dễ bị cảm xúc chi phối.</span></div>
+        <div><b>7–11</b><span>Lập luận với sự vật cụ thể: phân loại, sắp xếp, nhân quả.</span></div>
+        <div><b>11+</b><span>Suy luận trừu tượng, đặt giả thuyết.</span></div>
+      </div>
+      <div class="pen"><span class="hand">Vì sao điều này quan trọng?</span>Tuổi Ngọc dạy trẻ 3–11 tuổi, đúng giai đoạn chuyển từ "nghĩ bằng hình ảnh" sang "nghĩ có lý do". Vì vậy mọi hoạt động đều bắt đầu từ đồ vật thật trước khi lên giấy.</div>
+    </div>
+  </div>
+  <div class="card">
+    <h3>6 nhóm hoạt động rèn tư duy</h3>
+    <div class="acts">
+      <div class="act c-sky"><b>Phân loại</b><ul><li>Xếp đồ chơi theo màu, hình, kích thước</li><li>Tìm vật không cùng nhóm</li></ul></div>
+      <div class="act c-leaf"><b>Tìm quy luật</b><ul><li>Chuỗi hạt đỏ – xanh – xanh – đỏ…</li><li>Dãy số 2, 4, 6, …</li></ul></div>
+      <div class="act c-sun"><b>Không gian</b><ul><li>Tangram, xếp khối theo mẫu</li><li>Vẽ sơ đồ phòng ngủ của con</li></ul></div>
+      <div class="act c-violet"><b>So sánh</b><ul><li>Xếp từ cao đến thấp, nặng đến nhẹ</li><li>A cao hơn B, B cao hơn C thì sao?</li></ul></div>
+      <div class="act c-red"><b>Nhân quả</b><ul><li>Thí nghiệm nổi – chìm</li><li>"Nếu trời mưa thì…"</li></ul></div>
+      <div class="act c-sky"><b>Lập kế hoạch</b><ul><li>Mê cung, cờ caro</li><li>Con tự lên 3 bước cho việc dọn phòng</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HÀNH VI ============ -->
+<section class="panel" id="hanh-vi" role="tabpanel" aria-labelledby="t-hanh-vi" hidden>
+  <div class="panel-head">
+    <span class="label">Nề nếp &amp; Hành vi</span>
+    <h2>Thói quen tốt do chính con xây</h2>
+    <p>Thay vì một bảng việc cố định, con được tham gia quyết định thứ tự việc làm và nhìn thấy tiến bộ của mình mỗi ngày. Con làm theo vì hiểu, không vì bị nhắc.</p>
+  </div>
+  <div class="card">
+    <h3>Một ngày nề nếp</h3>
+    <div class="flow">
+      <div class="c-sun"><span class="when">Buổi sáng</span><ul><li>Tự đánh răng, gấp chăn</li><li>Xem bảng hình để tự chuẩn bị cặp, mũ, khẩu trang</li></ul></div>
+      <div class="c-sky"><span class="when">Đi học về</span><ul><li>Cất giày, treo mũ đúng chỗ</li><li>Bỏ quần áo bẩn vào giỏ</li><li>Rửa tay trước khi ăn</li></ul></div>
+      <div class="c-leaf"><span class="when">Góc học tập</span><ul><li>Con tự xếp thứ tự việc buổi tối bằng thẻ</li><li>Xong việc nào, cất thẻ việc đó</li></ul></div>
+      <div class="c-violet"><span class="when">Cuối tuần</span><ul><li>Đếm sao cả tuần cùng ba mẹ</li><li>Con kể lại việc mình làm tốt nhất</li></ul></div>
+    </div>
+  </div>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Nguyên tắc ngôi sao</h3>
+      <p class="muted">Gợi ý để mỗi gia đình điều chỉnh cho phù hợp.</p>
+      <ul class="list">
+        <li>Hoàn thành hết việc của mình trong ngày được 2 sao, chưa xong hết được 1 sao.</li>
+        <li>Giúp việc nhà là phần cộng thêm, không bắt buộc.</li>
+        <li>Sao không đổi thành tiền. Phần thưởng là bất ngờ do ba mẹ chọn.</li>
+        <li>Con được đề nghị thêm sao nếu kể lại việc mình làm tốt một cách rõ ràng.</li>
+        <li>Không mặc cả. Ba mẹ và con chỉ bàn cách làm, không bàn quyền lợi.</li>
+        <li>Thời gian xem màn hình đến sau khi xong việc cá nhân, không phải phần thưởng mặc định.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>8 kỹ năng trước khi vào lớp 1</h3>
+      <ul class="list">
+        <li>Ngồi yên tập trung 15–20 phút</li>
+        <li>Giơ tay chờ đến lượt khi muốn nói</li>
+        <li>Tự mở hộp bút, cất đồ dùng sau khi học</li>
+        <li>Cầm bút đúng, ngồi đúng tư thế</li>
+        <li>Làm theo hướng dẫn hai, ba bước</li>
+        <li>Tự đi vệ sinh, tự ăn bán trú</li>
+        <li>Nói được khi cần giúp đỡ</li>
+        <li>Biết xin lỗi và chia sẻ với bạn</li>
+      </ul>
+    </div>
+  </div>
+  <div class="pen"><span class="hand">Giữ mắt cho con</span>Màn hình đặt cách mắt ít nhất một sải tay, nghỉ 20 giây nhìn xa sau mỗi 20 phút, và ưu tiên hoạt động ngoài trời mỗi ngày.</div>
+</section>
+
+<!-- ============ TÀI NGUYÊN ============ -->
+<section class="panel" id="tai-nguyen" role="tabpanel" aria-labelledby="t-tai-nguyen" hidden>
+  <div class="panel-head">
+    <span class="label">Tài nguyên miễn phí</span>
+    <h2>Phiếu học và trò chơi để ba mẹ dùng ở nhà</h2>
+    <p>Tuổi Ngọc đang biên soạn bộ tài nguyên miễn phí. Các mục dưới đây sẽ lần lượt mở trong thời gian tới.</p>
+  </div>
+  <div class="res">
+    <div><span class="soon">sắp có</span><b>Tập tô số 1–20</b><span>20 phiếu, mỗi số đi kèm một nhóm con vật để đếm</span></div>
+    <div><span class="soon">sắp có</span><b>Tô màu chữ cái tiếng Việt</b><span>29 chữ cái và 11 chữ ghép</span></div>
+    <div><span class="soon">sắp có</span><b>Phiếu đếm và so sánh</b><span>Phạm vi 5, 10 và 20</span></div>
+    <div><span class="soon">sắp có</span><b>Phiếu cộng trừ</b><span>Phạm vi 10, 20 và 100</span></div>
+    <div><span class="soon">sắp có</span><b>Bảng chữ cái tiếng Anh có âm</b><span>26 chữ cái, mỗi chữ kèm từ mẫu</span></div>
+    <div><span class="soon">sắp có</span><b>Thẻ từ CVC</b><span>Luyện đọc Stage 2</span></div>
+    <div><span class="soon">sắp có</span><b>Phiếu quan sát và nối hình</b><span>Rèn tư duy cho bé 4–6 tuổi</span></div>
+    <div><span class="soon">sắp có</span><b>Bảng sao nề nếp</b><span>Mẫu in A4 theo tuần</span></div>
+  </div>
+</section>
+
+<section class="sheet cta" id="lien-he">
+  <div>
+    <span class="hand muted">Ba mẹ còn băn khoăn?</span>
+    <h2>Chưa chắc con nên bắt đầu từ đâu?</h2>
+    <p>Cho Tuổi Ngọc biết tuổi của con và điều con đang cần. Cô giáo sẽ gợi ý lớp học và lộ trình phù hợp.</p>
+  </div>
+  <div class="contact">
+    <b>Liên hệ tư vấn</b>
+    <span>Điện thoại / Zalo: đang cập nhật</span>
+    <span>Địa chỉ: đang cập nhật</span>
+    <span>Website: mntuoingoc</span>
+  </div>
+</section>
+</main>
+
+<footer>© Mầm non Tuổi Ngọc · Lộ trình Học &amp; Chơi cho bé từ 3 tuổi đến lớp 5</footer>
+
+<button class="fab" id="fab" aria-label="Mở trợ lý hỏi nhanh" aria-expanded="false" aria-controls="chat">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12Z"/></svg>
+  <span>Hỏi nhanh</span>
+</button>
+<div class="chat" id="chat" role="dialog" aria-label="Trợ lý Tuổi Ngọc" hidden>
+  <div class="chat-h"><span><b>Trợ lý Tuổi Ngọc</b><small>Chọn câu hỏi, trả lời ngay</small></span><button id="chatClose" aria-label="Đóng">×</button></div>
+  <div class="chat-log" id="chatLog"></div>
+  <div class="chips" id="chips"></div>
+</div>
+</body>
+</html>
